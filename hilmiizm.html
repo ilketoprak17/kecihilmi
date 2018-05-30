@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>KEÇİ HİLMİNİN KRALLIĞINA HOŞGELDİNİZ</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="#">YENİLİKÇİ, CESUR</a></li>
+  <li><a href="#">ÖZGÜRLÜKÇÜ, GÜÇLÜ</a></li>
+  <li><a href="#">İNSANLARIN</a></li>
+  <li><a href="#">GRUBU, ÜLKESİ</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>HANGİ AMAÇ UĞRUNA SAVAŞIYORUZ?</h1>
+  <p>Öncelikle biz Keçi Hilminin yoluna and içmiş ve sizler gibi diğer sınıf grubunun katı, sert ve istediğimizi yapamadığımız gruptan bıkmış
+insanlardan ibaretiz... Şimdi sizi askeriye de mareşal ve aynı zamanda Keçiistan veliahtı İrfan prens'in konuşmasıyla baş başa bırakıyorum.
+  </p>
+  <p>Arkadaşlar sizi yeni gruba davet ediyorum bu grup ilke ve oğullarının krallığıdır</p>
+
+  <p>Başlıca Sebepleri:</p>
+    
+  <p>1)Arkadaşlar sizde bu grupta istediğinizi yazamamaktan sıkılmadınız mı </p>
+    
+  <p>2)Artık sizcede yenilikçi bir grup olmanın zamanı değil mi</p>
+    
+  <p>3)Sizi bir filin yönetmesine razı mı olacaksınız ey insanlar!!!</p>
+    
+  <p>4)Bu dünya yüce rabbimizin biz insanlara gönderdiği bir mucizedir</p>
+    
+  <p>5)Yüce rabbimiz hayvanları boşuna yaratmadı amma velakin bizi yönetsinler diye de yaratmadı</p>
+    
+    
+  <p>Evet arkadaşlar biz bağımsızlığımızı resmî olarak ilan etmiş ve bu gruba savaş açmış bir hükümdarlık olarak sizi bu topluluğa bu kardeşliğe,bu yardımlaşma birliğine davet ediyoruz ey insanlar !!!!!!!!!!</p>
+    
+    
+    
+  <p>HİLMİNİN ESENLİĞİ SİZ GÜZEL İNSANLARIN ÜZERİNİZE OLSUN</p>
+  <p><strong>Sayfadaki boşluğa e-postanızı girerek Keçiistan vatandaşlığınızı alabilirsiniz.</strong></p>
+</article>
+<form>
+    E-postanız:<br>
+    <input type="text" name="eposta"><br>
+    <input type="submit" value="Vatandaş ol">
+  </form> 
+
+<footer>KEÇİİSTAN &copy; HİLMİCİ HÜKÜMETİ</footer>
+</div>
+
+</body>
+</html>
